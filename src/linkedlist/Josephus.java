@@ -15,7 +15,6 @@ public class Josephus {
 
         circleSingleLinkedList.showBoy();
     }
-
 }
 
 //创建一个环形的单向链表
@@ -86,12 +85,12 @@ class CircleSingleLinkedList {
             }
             helper = helper.getNext();
         }
-        //报数之前，先让first和helper移动k-1次
+        //报数之前，先让first和helper移动startNo-1次
         for (int i = 0; i < startNo - 1; i++) {
             first = first.getNext();
             helper = helper.getNext();
         }
-        //当报数的时候，让first和helper同时移动m-1次
+        //当报数的时候，让first和helper同时移动countNum-1次
         while(true){
             //此时圈中只有一个元素
             if(helper == first){
