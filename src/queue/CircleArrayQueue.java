@@ -68,7 +68,7 @@ class CircleQueue {
     //队列头
     private int front;
 
-    //队列尾
+    //队列尾，后一个位置
     private int rear;
 
     //该数据用于存放数据，模拟队列

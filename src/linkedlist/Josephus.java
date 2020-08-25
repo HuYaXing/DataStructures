@@ -7,13 +7,25 @@ package linkedlist;
 public class Josephus {
 
     public static void main(String[] args) {
-        CircleSingleLinkedList circleSingleLinkedList = new CircleSingleLinkedList();
-        circleSingleLinkedList.addBoy(5);
-        circleSingleLinkedList.showBoy();
 
-        circleSingleLinkedList.countBoy(1,2,5);
 
-        circleSingleLinkedList.showBoy();
+        int countx = 0;
+        int x = 500;
+        while (x!=0) {
+            countx++;
+            x = x & (x-1);
+            System.out.println(x);
+        }
+
+
+
+//        CircleSingleLinkedList circleSingleLinkedList = new CircleSingleLinkedList();
+//        circleSingleLinkedList.addBoy(5);
+//        circleSingleLinkedList.showBoy();
+//
+//        circleSingleLinkedList.countBoy(1,2,5);
+//
+//        circleSingleLinkedList.showBoy();
     }
 }
 
@@ -91,9 +103,9 @@ class CircleSingleLinkedList {
             helper = helper.getNext();
         }
         //当报数的时候，让first和helper同时移动countNum-1次
-        while(true){
+        while (true) {
             //此时圈中只有一个元素
-            if(helper == first){
+            if (helper == first) {
                 break;
             }
             //让first和helper移动countNum-1次
@@ -102,12 +114,12 @@ class CircleSingleLinkedList {
                 helper = helper.getNext();
             }
             //此时first指向的出圈的小孩
-            System.out.println("出圈"+first.getNo());
+            System.out.println("出圈" + first.getNo());
             //出圈
             first = first.getNext();
             helper.setNext(first);
         }
-        System.out.println("最后出圈的"+first.getNo());
+        System.out.println("最后出圈的" + first.getNo());
         //出圈
         first = first.getNext();
         helper.setNext(first);
