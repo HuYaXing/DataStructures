@@ -1,5 +1,7 @@
 package leetcode竞赛.八月.sf8_24;
 
+import javafx.util.Pair;
+
 import java.util.Scanner;
 
 /**
@@ -15,7 +17,7 @@ public class 游戏装备 {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         int n = sc.nextInt();
-
+//        Pair
         memo = new boolean[m];
         int[][] equipment = new int[m][n];
         for (int i = 0; i < m; i++) {

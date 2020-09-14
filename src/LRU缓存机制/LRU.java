@@ -6,51 +6,60 @@ import java.util.HashMap;
  * @Author HYStar
  * @Date 2020/8/13 22:50
  */
-public class LRU<K, V> {
+public class LRU {
 
-    private final int MAX_CACHE_SIZE;
+    public static void main(String[] args) {
+        LRU cache = new LRU(1 /* 缓存容量 */);
+
+        cache.put(2, 1);
+        // 返回  1
+        System.out.println(cache.get(2));
+        // 该操作会使得关键字 2 作废
+        cache.put(3, 2);
+        // 返回 -1 (未找到)
+        System.out.println(cache.get(2));
+        // 返回 2
+        System.out.println(cache.get(3));
+    }
+
+
+    private final int MAX_SIZE;
     private Entry first;
     private Entry last;
 
-    private HashMap<K, Entry<K, V>> hashMap;
+    private HashMap<Integer, Entry> hashMap;
 
-    public LRU(int cacheSize) {
-        MAX_CACHE_SIZE = cacheSize;
-        hashMap = new HashMap<>();
-    }
-
-    public void put(K key, V value) {
+    public void put(int key, int value) {
         Entry entry = getEntry(key);
         if (entry == null) {
-            if (hashMap.size() >= MAX_CACHE_SIZE) {
-                hashMap.remove(last.key);
-                removeLast();
-            }
             entry = new Entry();
             entry.key = key;
+            if (hashMap.size() == MAX_SIZE) {
+                removeLast();
+            }
         }
         entry.value = value;
-        moveToFirst(entry);
+        movetoFirst(entry);
         hashMap.put(key, entry);
     }
 
-    public V get(K key) {
-        Entry<K, V> entry = getEntry(key);
+    public int get(int key) {
+        Entry entry = getEntry(key);
         if (entry == null) {
-            return null;
+            return -1;
         }
-        moveToFirst(entry);
+        movetoFirst(entry);
         return entry.value;
     }
 
-    private void remove(K key) {
-        Entry entry = hashMap.get(key);
+    public void remove(int key) {
+        Entry entry = getEntry(key);
         if (entry != null) {
-            if (entry.pre != null) {
-                entry.pre.next = entry.next;
-            }
             if (entry.next != null) {
                 entry.next.pre = entry.pre;
+            }
+            if (entry.pre != null) {
+                entry.pre.next = entry.next;
             }
             if (entry == first) {
                 first = first.next;
@@ -59,18 +68,29 @@ public class LRU<K, V> {
                 last = last.pre;
             }
         }
-        hashMap.remove(key);
     }
 
-    private void moveToFirst(Entry entry) {
+    public void removeLast() {
+        hashMap.remove(last.key);
+        if (last != null) {
+            last = last.pre;
+            if (last == null) {
+                first = null;
+            } else {
+                last.next = null;
+            }
+        }
+    }
+
+    public void movetoFirst(Entry entry) {
         if (entry == first) {
             return;
         }
-        if (entry.pre != null) {
-            entry.pre.next = entry.next;
-        }
         if (entry.next != null) {
             entry.next.pre = entry.pre;
+        }
+        if (entry.pre != null) {
+            entry.pre.next = entry.next;
         }
         if (entry == last) {
             last = last.pre;
@@ -85,37 +105,22 @@ public class LRU<K, V> {
         entry.pre = null;
     }
 
-    private void removeLast() {
-        if (last != null) {
-            last = last.pre;
-            if (last == null) {
-                first = null;
-            } else {
-                last.next = null;
-            }
-        }
-    }
-
-    private Entry<K, V> getEntry(K key) {
+    public Entry getEntry(int key) {
         return hashMap.get(key);
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        Entry entry = first;
-        while (entry != null) {
-            sb.append(String.format("%s:%s", entry.key, entry.value));
-            entry = entry.next;
-        }
-        return sb.toString();
+    public LRU(int MAX_SIZE) {
+        this.MAX_SIZE = MAX_SIZE;
+        hashMap = new HashMap<>();
     }
 
-    class Entry<K, V> {
+
+    class Entry {
         public Entry pre;
         public Entry next;
-        public K key;
-        public V value;
+
+        public int key;
+        public int value;
     }
 
 }
