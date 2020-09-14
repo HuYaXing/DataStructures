@@ -22,93 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dce2f34-b58c-4393-9182-9365606b537f" name="Default Changelist" comment="day-1">
-      <change afterPath="$PROJECT_DIR$/src/LRU缓存机制/LRUA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_02/和为s的连续正数序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_03/N皇后.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/从上到下打印二叉树III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/前K个高频元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/数值的整数次方.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/栈的压入弹出序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/sf9_04/正则表达式匹配.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/二叉树中最大路径和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/从前序与中序遍历序列构造二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/恢复二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/组合总和III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/订单系统工作.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/九月/预测赢家.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/八月/sf8_27/重新安排行程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/八月/整数1到n中1出现的次数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/八月/机器人能否返回原点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode竞赛/八月/钥匙和房间.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/测试/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/测试/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/测试/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/测试/组合.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/CountdownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/FutureTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/JUC/ThreadUnsafeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/二叉树和递归/二分搜索树/二叉搜索树的后序遍历序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/二维费用背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/分组背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/多重背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/找零钱.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/混合背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/玩转算法面试/并发/TestVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/设计模式/单例模式/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/设计模式/单例模式/DataSourceEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/面试算法/集合测试.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7dce2f34-b58c-4393-9182-9365606b537f" name="Default Changelist" comment="xiaomi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/IO/BIO/IOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/IO/BIO/IOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/IO/BIO/IOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/IO/BIO/IOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/IO/NIO/NIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/IO/NIO/NIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/LRU缓存机制/LRU2$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/LRU缓存机制/LRU2$Entry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/LRU缓存机制/LRU2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/LRU缓存机制/LRU2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/META-INF/DataStructures.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_18/交错字符串.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_18/交错字符串.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_24/青蛙跳台阶问题.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_24/青蛙跳台阶问题.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_27/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_27/JDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_31/平衡二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/七月/sf7_31/平衡二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/sf8_09/前缀树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/sf8_09/前缀树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/sf8_17/平衡二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/sf8_17/平衡二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/最长的可整合子数组的长度.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/八月/最长的可整合子数组的长度.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/学而思/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/学而思/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/排序算法/希尔排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/排序算法/希尔排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/排序算法/插入排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/leetcode竞赛/排序算法/插入排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/ArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/ArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/CircleArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/CircleArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sf3_21/Main.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sf3_21/多数元素.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sf3_21/多数元素.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sf3_21/求根到叶子节点数字之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sf3_21/求根到叶子节点数字之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/ArrayStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/ArrayStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/对称二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/对称二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/平衡二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/平衡二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/相同的树.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/相同的树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/路径总和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/二叉树和递归/路径总和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/动态规划/练习题/目标和.java___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/查找表/直线上最多的点数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/查找表/直线上最多的点数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/栈队列/单词接龙.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/栈队列/单词接龙.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/递归与回溯/二维平面/单词搜索.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/玩转算法面试/递归与回溯/二维平面/单词搜索.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/算法训练/字母异位词分组.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/算法训练/字母异位词分组.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/算法训练2_09/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/算法训练2_09/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/算法训练2_09/两数相加.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/算法训练2_09/两数相加.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/线程中断/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/线程中断/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/蓝桥杯备战/JavaB组2014年/奇怪的分式06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/蓝桥杯备战/JavaB组2014年/奇怪的分式06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/面试算法/树的按层遍历.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/面试算法/树的按层遍历.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/面试算法/网易提前批/demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/面试算法/网易提前批/demo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/面试算法/网易提前批/拆分资源包.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/面试算法/网易提前批/拆分资源包.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRU缓存机制/LRU2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRU缓存机制/LRU2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/完全背包.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/完全背包.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/背包01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/玩转算法面试/动态规划/背包问题/背包九讲/背包01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/玩转算法面试/递归与回溯/二维平面/单词搜索.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/玩转算法面试/递归与回溯/二维平面/单词搜索.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1564,6 +1479,7 @@
       <workItem from="1599530087378" duration="16999000" />
       <workItem from="1599703163729" duration="16397000" />
       <workItem from="1600048531335" duration="1299000" />
+      <workItem from="1600051938233" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="day-1">
       <created>1598504399288</created>
@@ -1572,7 +1488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598504399288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xiaomi">
+      <created>1600052045146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600052045146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1592,7 +1515,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day-1" />
+    <MESSAGE value="xiaomi" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiaomi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2544" y="219" key="#Inspections" timestamp="1599725776757">
@@ -1671,9 +1595,10 @@
     </state>
     <state x="2387" y="153" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598430661894" />
     <state x="516" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1598324090735" />
-    <state x="2512" y="273" key="Vcs.Push.Dialog.v2" timestamp="1598504407528">
+    <state x="2512" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600052047106">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2512" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/63.24.1857.1056@1920.0.1920.1080" timestamp="1600052047106" />
     <state x="2512" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1598504407528" />
     <state x="2694" y="181" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598504488136">
       <screen x="1920" y="0" width="1920" height="1080" />
