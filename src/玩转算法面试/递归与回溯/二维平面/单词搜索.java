@@ -1,5 +1,9 @@
 package 玩转算法面试.递归与回溯.二维平面;
 
+import sf3_18.A;
+
+import java.util.*;
+
 /**
  * @Author HYStar
  * @Date 2020/4/29 19:32
@@ -7,7 +11,16 @@ package 玩转算法面试.递归与回溯.二维平面;
 public class 单词搜索 {
 
     public static void main(String[] args) {
-
+//        List<Integer> list1 = Arrays.asList(1, 2, 3);
+//        list1.set(2, 5);
+        LinkedList<String> list02 = new LinkedList<String>(Arrays.asList("a", "b", "c"));
+        list02.add("1");
+        System.out.println(list02);
+//        System.out.println(list1);
+//        List<String> list = new ArrayList<>();
+//        ArrayList<Integer> list1 = new ArrayList<>(Collections.nCopies(10,0));
+//        list.add(2,"1");
+//        System.out.println(list);
     }
 
     //代表四个方向移动

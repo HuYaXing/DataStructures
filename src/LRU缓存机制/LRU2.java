@@ -9,8 +9,8 @@ import java.util.Map;
  */
 public class LRU2<K, V> {
     private final int MAX_SIZE;
-    private Entry first;
-    private Entry last;
+    private Entry<K, V> first;
+    private Entry<K, V> last;
 
     Map<K, Entry<K, V>> hashMap;
 
@@ -44,7 +44,7 @@ public class LRU2<K, V> {
     }
 
     public void remove(K key){
-        Entry entry = getEntry(key);
+        Entry<K,V> entry = getEntry(key);
         if (entry != null){
             if (entry.pre != null){
                 entry.pre.next = entry.next;
@@ -95,8 +95,6 @@ public class LRU2<K, V> {
                 last.next = null;
             }
         }
-
-
     }
 
     private Entry<K, V> getEntry(K key) {
@@ -104,8 +102,8 @@ public class LRU2<K, V> {
     }
 
     class Entry<K, V> {
-        public Entry pre;
-        public Entry next;
+        public Entry<K, V> pre;
+        public Entry<K, V> next;
         public K key;
         public V value;
     }

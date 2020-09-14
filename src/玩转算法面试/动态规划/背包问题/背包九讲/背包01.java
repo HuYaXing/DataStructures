@@ -43,15 +43,12 @@ public class ±³°ü01 {
 //        System.out.println(dp[N][V]);
 
         int[] dp = new int[V + 1];
-        for (int i = 1; i <= N; i++) {
-            for (int j = V; j >= 0; j--) {
-                if (j >= v[i - 1]) {
-                    dp[j] = Math.max(dp[j], dp[j - v[i - 1]] + w[i - 1]);
-                }
+        for (int i = 0; i < N; i++) {
+            for (int j = V; j >= v[i]; j--) {
+                dp[j] = Math.max(dp[j], dp[j - v[i]] + w[i]);
             }
         }
         System.out.println(dp[V]);
-
     }
 
 }
