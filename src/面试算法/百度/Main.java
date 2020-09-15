@@ -5,22 +5,23 @@ import java.util.Scanner;
 /**
  * @Author HYStar
  * @Date 2020/9/3 18:49
- */
+        */
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int num0 = 0;
-        int num5 = 0;
-        for (int i = 0; i < n; i++) {
-            if (sc.nextInt() == 0) {
-                num0++;
-            } else {
-                num5++;
-            }
-        }
-        System.out.println(f(num0, num5));
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int num0 = 0;
+//        int num5 = 0;
+//        for (int i = 0; i < n; i++) {
+//            if (sc.nextInt() == 0) {
+//                num0++;
+//            } else {
+//                num5++;
+//            }
+//        }
+//        System.out.println(f(num0, num5));
+        System.out.println(2 & 1);
     }
 
     private static String f(int num0, int num5) {
