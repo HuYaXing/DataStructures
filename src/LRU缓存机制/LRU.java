@@ -95,6 +95,7 @@ public class LRU {
         if (entry == last) {
             last = last.pre;
         }
+        //添加第一个元素的时候需要
         if (first == null || last == null) {
             first = last = entry;
             return;

@@ -23,6 +23,7 @@ public class »Ö¸´¶þ²æËÑË÷Ê÷ {
                 stack.push(root);
                 root = root.left;
             }
+
             root = stack.pop();
             res.add(root.val);
             root = root.right;

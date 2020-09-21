@@ -24,8 +24,8 @@ public class ½âÊý¶À {
     public static void dfs(char[][] board, int x, int y) {
         if (x == 9) {
             print(board);
+            System.exit(0);
             return;
-//            System.exit(0);
         }
 
         if (board[x][y] == '0') {
