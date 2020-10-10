@@ -9,7 +9,6 @@ import java.util.Map;
  */
 public class 从前序与中序遍历序列构造二叉树 {
 
-
     public static void main(String[] args) {
 
     }
@@ -37,7 +36,7 @@ public class 从前序与中序遍历序列构造二叉树 {
         int root_index = indexMap.get(root_val);
         TreeNode root = new TreeNode(root_val);
         int num = root_index - i_start;
-        root.left = buildTreeHelper(preorder, p_start + 1, p_start + num, inorder, i_start, i_start + num);
+        root.left = buildTreeHelper(preorder, p_start + 1, p_start + num, inorder, i_start, i_start + num - 1);
         root.right = buildTreeHelper(preorder, p_start + num + 1, p_end, inorder, root_index + 1, i_end);
         return root;
     }
